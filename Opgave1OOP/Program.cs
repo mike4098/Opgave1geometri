@@ -2,6 +2,7 @@
 
 namespace Opgave1OOP
 {
+
     public class program
     {
         public static void Main(string[] args)
@@ -9,8 +10,7 @@ namespace Opgave1OOP
             //Geometri n = new Geometri();
 
             SetNget s = new SetNget();
-            s.Perimeter = 7;
-            Console.WriteLine(s.Perimeter);
+            
 
             Console.ReadKey();
         }

@@ -5,12 +5,18 @@ using System.Text;
 namespace Opgave1OOP
 {
     class SetNget
-    {  
-      
-        public int Perimeter        
+    {
+        private int Omkreds;
+        public int omkreds
         {
-            get {return Perimeter; }
-            set { Perimeter = 1; }
+            get
+            {
+                return this.Omkreds;
+            }
+            set
+            {
+                this.Omkreds = 5;
+            }
         }
     }
   
