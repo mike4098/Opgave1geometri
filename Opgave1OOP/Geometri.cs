@@ -6,11 +6,11 @@ namespace Opgave1OOP
 {
     public class Geometri
     {
-        public string Square;
+        public int Square;
 
         public Geometri() {
                    //this finds the perimeter of a square
-         int Omkreds, perimeter; //here i make 2 integers called omkreds and perimeter
+          int Omkreds, perimeter; //here i make 2 integers called omkreds and perimeter
         Console.WriteLine("side: ");
             Omkreds = Convert.ToInt32(Console.ReadLine()); //here i make it possible for a user to input a length
             perimeter = 2 * Omkreds* Omkreds; // heres the calculation to find the perimeter for a square
